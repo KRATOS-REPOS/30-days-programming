@@ -18,8 +18,6 @@ git clone https://github.com/KRATOS-REPOS/30-days-programming.git
 ```bash
 pip install pyfiglet
 pip insttal pystyle
-pip install webbrowser
-pip install subprocess
 ```
 ## Runing The Tool on Linux, MacOS and Termux
 ```bash
