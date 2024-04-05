@@ -1,0 +1,105 @@
+
+CNS: Convert Number System
+
+Welcome to CNS, your go-to interface for converting between different number systems effortlessly. 
+Whether you're working with decimal, binary, hexadecimal, or octal numbers, 
+CNS provides a comprehensive set of tools to facilitate seamless conversions.
+
+
+Basic Commands                                                                                                                                                                                                                               
+=============                                                                                                                                                                                                                      
+                                                                                                                                                                                                                  
+    Command       Description                                                                                                                                                                                                               
+    -------       -----------                                                                                                                                                                                                               
+    ?             Help menu
+    help          Help menu
+    Repo          Go to tool repo
+    Exit          Close sessions
+    A-H           Appear all process result
+    L-H           Appear last process result
+
+    Convert       Description
+    -------       -----------
+    Binary        Convert from Binary
+    Decimal       Convert from Decimal
+    Hexa          Convert from HexaDecimal
+    Octal         Convert from Octal
+
+    Bitwise       Description
+    -------       -----------
+    Not           Execute Not function
+    And           Execute AND function
+    Or            Execute OR function
+    Xor           Execute XOR function
+
+Usage Commands                                                                                                                                                                                                                               
+============= 
+    After choise command from Basic Convert Commands
+
+    Command       Description                                                                                                                                                                                                               
+    -------       ----------- 
+    -B            Convert to Binary
+    -D            Convert to Decimal
+    -H            Convert to HexaDecimal
+    -O            Convert to Octal
+    -I            To take values from input
+    -F            To take values from file
+
+Convert Number Systems => CNSv1.0
+==========
+
+
+Features:
+
+    Effortless Conversion: With CNS, converting between decimal, binary, hexadecimal, and octal numbers has never been easier. 
+    Our intuitive interface allows you to perform conversions quickly and accurately.
+
+    Building Ranges and Lists: CNS simplifies the process of working with lists of numbers by allowing you to specify ranges effortlessly.
+    Whether you're dealing with IDs or IP addresses, CNS provides convenient methods to streamline your workflow.
+
+
+    User-Friendly Interface: Designed with user experience in mind,
+    CNS offers a user-friendly interface that makes it easy for both novice and experienced users to perform complex number system conversions with ease.
+
+    Cross-Platform Compatibility: Whether you're using CNS on Windows, macOS, or Linux,
+    our tool is designed to work seamlessly across different platforms, ensuring a consistent experience regardless of your operating system.
+
+How to Use:
+
+    Conversion: Simply input the number you wish to convert along with the desired output format, and CNS will handle the rest.
+
+    Building Ranges: Use the provided commands and options to specify ranges of numbers effortlessly, saving you time and effort in manual list creation.
+
+    Exploration: Dive deeper into the world of number systems with CNS's comprehensive set of tools and features, allowing you to explore different formats and their relationships.
+
+Get Started:
+
+Experience the power and convenience of CNS today.
+Whether you're a seasoned professional or just getting started with number system conversions,
+CNS is your ultimate companion for all your conversion needs.
+
+Feel free to customize and expand upon this description to better reflect the unique features and capabilities of your tool.
+
+### Examples
+Command <-option1> <-option2>
+
+Convert form Binary to Decimal by input value
+    CNS$ Binary -D -I  
+    #> 1101
+    $ 13
+
+Convert form Binary to Decimal by file
+    CNS$  Binary -D -F
+    # test.txt
+    $ 28201888296
+
+Not function
+    CNS$  Not
+    #> 1101
+    $ 0010
+
+Or function
+    CNS`v1.0@ Or
+    #> 1101
+    #> 0110
+    $ 1111
