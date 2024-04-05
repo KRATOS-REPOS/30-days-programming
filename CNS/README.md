@@ -10,9 +10,16 @@ CNS provides a comprehensive set of tools to facilitate seamless conversions.
 
 ## Installation
 
-Clone the repository:
+###Clone the repository:
 ```bash
 git clone https://github.com/KRATOS-REPOS/30-days-programming.git
+```
+###Installation requirments
+```bash
+pip install pyfiglet
+pip insttal pystyle
+pip install webbrowser
+pip install subprocess
 ```
 ## Runing The Tool on Linux, MacOS and Termux
 ```bash
