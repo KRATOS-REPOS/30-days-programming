@@ -12,16 +12,18 @@ CNS provides a comprehensive set of tools to facilitate seamless conversions.
 
 Clone the repository:
 ```bash
-git clone https://github.com/KRATOS-REPOS/30-days-programming/CNS
+git clone https://github.com/KRATOS-REPOS/30-days-programming.git
 ```
 ## Runing The Tool on Linux, MacOS and Termux
 ```bash
+cd 30-days-programming
 cd CNS
 python3 CNS.py
 ```
 
 ## Runing The Tool on Windows
 ```bash
+cd 30-days-programming
 cd CNS
 python CNS.py
 ```
